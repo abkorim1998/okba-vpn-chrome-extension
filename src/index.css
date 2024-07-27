@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Mechanismo;
+  src: url(/MainluxLight-DOAJx.otf);
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  height: 477px;
+  width: 300px;
+  font-family: Mechanismo;
+}
+
+/* button {
+  display: block;
+  padding: 8px 51px !important;
+  background: var(--app-color);
+  border-radius: 22px;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  box-shadow: 1px 1px 3px 0px #00000085;
+  cursor: pointer;
+} */
+
+button.btn {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  box-shadow: 1px 1px 1px 0px #000000a1;
+  cursor: pointer;
+  outline: none;
+  border-radius: 1000px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  color: #313133;
+  border: none;
+  display: inline-block;
+}
+
+button.btn.connect {
+  background: #27fce6;
+  /* background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%); */
+  box-shadow: 6px 8px 20px rgba(79, 209, 197, 0.28);
+  transition: all 0.3s ease-in-out 0s;
+  position: relative;
+  z-index: 99;
+}
+
+button.btn.connect::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+  /* z-index: 9; */
+}
+
+button.btn.connecting{
+  background: #ccc;
+}
+button.btn.disconnect {
+  background: #341d33;
+  color: #fff;
+}
+
+.runNextServer {
+  width: 10%;
+  font-size: 20px;
+  text-align: center;
+  color: #59d5c8;
+  display: none;
+  /* background: red; */
+  z-index: 99;
+}
+
+
+@keyframes ring {
+  0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+  }
+
+  100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+  }
+}

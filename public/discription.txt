@@ -1,0 +1,19 @@
+vpo is a free vpn & proxy extension created by okbaTach.
+it's use only public vpn & proxy 
+
+it's have a lot of features
+________________________________
+# unlimited vpn & proxy servers.
+# it's have a lot of vpn & proxy server providers.
+# you can easily connect or disconnect the vpn or proxy server.
+# you can select any regions you want.
+# you can select any countries you want. 
+# you can add your own vpn or proxy list. 
+# countries visualization by 3D globe.
+# you will get allmost every country.
+# you can add your bypass website list easily.
+# you can connect by filtering proxy or vpn server from your favorite provider.
+
+we will continuously add featues on it
+and build this a better product for everyone in the world
+so stay with us and give your valueable feedback.

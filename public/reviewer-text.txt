@@ -1,0 +1,26 @@
+vpo is a free vpn & proxy extension created by okbaTach.
+it's use only public vpn & proxy
+
+for this we took some Permissions to make it prefect product for user.
+bellow have the certification of all the permissions.
+
+Permissions 
+-----------------------------------------------
+storage:
+this extension have a lot of setting so we store those setting on local storage so we took the storage permissions,
+
+unlimitedStorage:
+the extension save some JSON data to localstorage and that is a lot of data some time so we took the unlimitedStorage permission
+
+proxy: 
+it's a proxy extension so we took the proxy api permissions
+
+<all_urls>:
+this extension will active proxy for all the url so we took the all_urls permissions
+
+info that testers need
+---------------------------------------------
+this is just a proxy extension
+it's have popup for user so user can control 
+every things on it.
+and on the popup have option page linked there also have a lot of settings for users to control every things on it.
